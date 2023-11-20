@@ -16,7 +16,7 @@ To get a local copy up and running follow these simple steps:
    ```
    Run the movie-recommender-system.ipynb file so that it can generate two pickle files that is required in app.py
 
-3. Replace YOUR_API_KEY in the main.py file with your API key. 
+3. Replace YOUR_API_KEY in the main.py file with your API key(From [TMDB](https://www.themoviedb.org/)). 
    ```sh
    YOUR_API_KEY = 'ENTER YOUR API KEY HERE'
    ```
