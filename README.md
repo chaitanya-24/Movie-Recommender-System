@@ -9,15 +9,18 @@ To get a local copy up and running follow these simple steps:
    ```sh
    git clone https://github.com/chaitanya-24/Movie-Recommender-System.git
    ```
+   
 2. Install the required libraries
    ```sh
    pip install -r requirements.txt
    ```
+   Run the movie-recommender-system.ipynb file so that it can generate two pickle files that is required in app.py
+
 3. Replace YOUR_API_KEY in the main.py file with your API key. 
    ```sh
    YOUR_API_KEY = 'ENTER YOUR API KEY HERE'
    ```
-4. Run the main.py file
+4. Run the app.py file
    ```sh
    streamlit run app.py
    ```
